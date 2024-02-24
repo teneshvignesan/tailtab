@@ -6,8 +6,8 @@
 		class="flex flex-col items-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 space-x-3 sm:my-6"
 	>
 		<div>
-			<a class="flex-none text-xl font-semibold text-black" href="/" aria-label="tailtab">
-				tailtab
+			<a href="/" aria-label="tailtab">
+				<img src="/favicon.png" alt="tailtab logo" class="w-10 mb-3 sm:w-12" />
 			</a>
 		</div>
 		<div class="text-center text-sm">
