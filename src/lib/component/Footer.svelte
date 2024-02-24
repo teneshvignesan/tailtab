@@ -12,7 +12,7 @@
 		</div>
 		<div class="text-center text-sm">
 			<p class="text-gray-500">Track your income and expenses with ease.</p>
-			<p class="text-gray-500">© 2024 tailtab. All rights reserved.</p>
+			<p class="text-gray-500">© {new Date().getFullYear()} tailtab. All rights reserved.</p>
 		</div>
 	</div>
 </footer>
