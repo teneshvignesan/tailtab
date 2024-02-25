@@ -9,8 +9,8 @@
 	class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
 >
 	<div class="flex items-center justify-between">
-		<a href="/" aria-label="tailtab">
-			<img src="/favicon.png" alt="tailtab logo" class="w-10 sm:w-12" />
+		<a href="/" aria-label="Tailtab">
+			<img src="/favicon.png" alt="Tailtab logo" class="w-10 sm:w-12" />
 		</a>
 		<button
 			on:click={() => {
