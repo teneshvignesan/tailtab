@@ -7,11 +7,10 @@
 	let loggedIn = true;
 </script>
 
-<nav
-	class="relative w-full max-w-[85rem] mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
+<nav class="relative w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
 	<div class="flex items-center justify-between">
 		<a href="/" aria-label="Tailtab">
-			<img src="/favicon.png" alt="Tailtab logo" class="w-10 sm:w-12" />
+			<img src="/favicon.png" alt="Tailtab logo" class="w-6 sm:w-10" />
 		</a>
 		<button
 			on:click={() => {
@@ -31,7 +30,7 @@
 			<a
 				class="{$page.url.pathname === '/features'
 					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400 py-6"
+					: 'text-gray-500'} font-medium hover:text-gray-400 py-4"
 				href="/features"
 				aria-label="Features">
 				Features
@@ -39,7 +38,7 @@
 			<a
 				class="{$page.url.pathname === '/pricing'
 					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400 py-6"
+					: 'text-gray-500'} font-medium hover:text-gray-400 py-4"
 				href="/pricing"
 				aria-label="Pricing">
 				Pricing
@@ -47,21 +46,21 @@
 			<a
 				class="{$page.url.pathname === '/contact'
 					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400 py-6"
+					: 'text-gray-500'} font-medium hover:text-gray-400 py-4"
 				href="/contact"
 				aria-label="Contact">
 				Contact
 			</a>
 			{#if !loggedIn}
 				<a
-					class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 border-s border-gray-300 my-6 ps-6"
+					class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 border-s border-gray-300 my-4 ps-6"
 					href="/login"
 					aria-label="Log in">
 					Log in
 				</a>
 			{:else}
 				<a
-					class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 border-s border-gray-300 my-6 ps-6"
+					class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 border-s border-gray-300 my-4 ps-6"
 					href="/dashboard"
 					aria-label="Dashboard">
 					Dashboard

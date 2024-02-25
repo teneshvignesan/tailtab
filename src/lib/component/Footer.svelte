@@ -8,7 +8,7 @@
 		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
 			<div class="col-span-full hidden lg:col-span-1 lg:block">
 				<a class="flex-none text-xl font-semibold" href="/" aria-label="Tailtab">
-					<img src="/favicon.png" alt="Tailtab logo" class="w-10 mb-3 sm:w-12" /></a>
+					<img src="/favicon.png" alt="Tailtab logo" class="w-10 mb-3" /></a>
 				<p class="mt-3 text-xs sm:text-sm text-gray-500 sm:hidden">
 					© {new Date().getFullYear()} Tailtab. All rights reserved.
 				</p>
@@ -74,7 +74,7 @@
 			class="flex flex-col sm:flex-row justify-between items-center text-center border-t border-gray-200 py-4 text-sm">
 			<div class="my-3 sm:hidden">
 				<a class="flex-none text-xl font-semibold" href="/" aria-label="Tailtab">
-					<img src="/favicon.png" alt="Tailtab logo" class="w-10 mb-3 sm:w-12 mx-auto" />
+					<img src="/favicon.png" alt="Tailtab logo" class="w-8 mb-3 mx-auto" />
 				</a>
 				<p class="mt-1 text-gray-500">
 					© {new Date().getFullYear()} Tailtab. All rights reserved.
