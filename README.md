@@ -25,7 +25,7 @@ You may view our [roadmap](https://www.tailtab.com/roadmap) if you'd like to see
 
 All code contributions, including those of people having commit access, must go through a pull request and be approved by a core developer before being merged. This is to ensure a proper review of all the code.
 
-Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ## Security
 
@@ -33,4 +33,4 @@ For security issues, kindly email us at [security@tailtab.com](mailto:security@t
 
 ## License
 
-This repository is available under the [GPL-3.0 or later](./LICENSE).
+This repository is available under the [GPL-3.0 or later](./LICENSE.md).
