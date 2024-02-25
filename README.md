@@ -17,15 +17,15 @@
 
 > Work in progress
 
+## Roadmap
+
+You may view our [roadmap](https://www.tailtab.com/roadmap) if you'd like to see what we're currently working on.
+
 ## Contributing
 
 All code contributions, including those of people having commit access, must go through a pull request and be approved by a core developer before being merged. This is to ensure a proper review of all the code.
 
 Please note that this project is released with a [Contributor Code of Conduct](https://akaunting.com/conduct). By participating in this project you agree to abide by its terms.
-
-## Roadmap
-
-You may view our [roadmap](https://www.tailtab.com/roadmap) if you'd like to see what we're currently working on.
 
 ## Security
 
