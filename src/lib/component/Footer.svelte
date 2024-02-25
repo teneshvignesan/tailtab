@@ -18,10 +18,6 @@
 
 				<div class="mt-3 grid space-y-3 text-sm">
 					<p>
-						<a class="inline-flex gap-x-2 text-gray-500 hover:text-gray-800" href="/features"
-							>Features</a>
-					</p>
-					<p>
 						<a class="inline-flex gap-x-2 text-gray-500 hover:text-gray-800" href="/pricing"
 							>Pricing</a>
 					</p>

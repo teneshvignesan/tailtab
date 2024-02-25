@@ -29,17 +29,9 @@
 	<div class="hidden basis-full grow sm:block">
 		<div class="flex flex-row items-center justify-end gap-y-0 gap-x-7 mt-0 ps-7">
 			<a
-				class="{$page.url.pathname === '/features'
-					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400 py-4"
-				href="/features"
-				aria-label="Features">
-				Features
-			</a>
-			<a
 				class="{$page.url.pathname === '/pricing'
 					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400 py-4"
+					: 'text-gray-500 hover:text-gray-400'} font-medium py-4"
 				href="/pricing"
 				aria-label="Pricing">
 				Pricing
@@ -47,7 +39,7 @@
 			<a
 				class="{$page.url.pathname === '/contact'
 					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400 py-4"
+					: 'text-gray-500 hover:text-gray-400'} font-medium py-4"
 				href="/contact"
 				aria-label="Contact">
 				Contact
@@ -72,17 +64,9 @@
 	<div class="{hamburgerMenuOpen ? 'block' : 'hidden'} basis-full grow sm:hidden">
 		<div class="flex flex-col gap-y-4 gap-x-0 mt-5">
 			<a
-				class="{$page.url.pathname === '/features'
-					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400"
-				href="/features"
-				aria-label="Features">
-				Features
-			</a>
-			<a
 				class="{$page.url.pathname === 'pricing'
 					? 'text-blue-600'
-					: 'text-gray-500'} hover:text-gray-400 font-medium"
+					: 'text-gray-500 hover:text-gray-400'} font-medium"
 				href="/pricing"
 				aria-label="Pricing">
 				Pricing
@@ -90,7 +74,7 @@
 			<a
 				class="{$page.url.pathname === 'contact'
 					? 'text-blue-600'
-					: 'text-gray-500'} font-medium hover:text-gray-400"
+					: 'text-gray-500 hover:text-gray-400'} font-medium"
 				href="/contact"
 				aria-label="Contact">
 				Contact
