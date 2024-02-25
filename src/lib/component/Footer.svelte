@@ -4,8 +4,8 @@
 </script>
 
 <footer class="flex w-full text-sm py-3">
-	<div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
-		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
+	<div class="w-full max-w-[85rem] mx-auto py-10 px-4 sm:px-6 lg:px-8">
+		<div class="grid grid-cols-2 gap-6 mb-10 md:grid-cols-4 lg:grid-cols-5">
 			<div class="col-span-full hidden lg:col-span-1 lg:block">
 				<a class="flex-none text-xl font-semibold" href="/" aria-label="Tailtab">
 					<img src="/favicon.png" alt="Tailtab logo" class="w-10 mb-3" /></a>
@@ -71,7 +71,7 @@
 			</div>
 		</div>
 		<div
-			class="flex flex-col sm:flex-row justify-between items-center text-center border-t border-gray-200 py-4 text-sm">
+			class="flex flex-col justify-between items-center text-center border-t border-gray-200 py-4 text-sm sm:flex-row">
 			<div class="my-3 sm:hidden">
 				<a class="flex-none text-xl font-semibold" href="/" aria-label="Tailtab">
 					<img src="/favicon.png" alt="Tailtab logo" class="w-8 mb-3 mx-auto" />

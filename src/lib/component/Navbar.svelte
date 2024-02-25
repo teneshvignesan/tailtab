@@ -1,29 +1,30 @@
 <script lang="ts">
 	import HeroiconsBars316Solid from '~icons/heroicons/bars-3-16-solid';
 	import HeroiconsXMark16Solid from '~icons/heroicons/x-mark-16-solid';
+	import { Button } from 'bits-ui';
 	import { page } from '$app/stores';
 
 	let hamburgerMenuOpen = false;
 	let loggedIn = true;
 </script>
 
-<nav class="relative w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
+<nav
+	class="relative w-full max-w-[85rem] mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
 	<div class="flex items-center justify-between">
 		<a href="/" aria-label="Tailtab">
 			<img src="/favicon.png" alt="Tailtab logo" class="w-6 sm:w-10" />
 		</a>
-		<button
+		<Button.Root
+			class="sm:hidden"
 			on:click={() => {
 				hamburgerMenuOpen = !hamburgerMenuOpen;
 			}}>
 			{#if !hamburgerMenuOpen}
-				<HeroiconsBars316Solid
-					class="sm:hidden text-lg text-gray-400 hover:text-gray-500 cursor-pointer" />
+				<HeroiconsBars316Solid class="text-lg text-gray-400 hover:text-gray-500 cursor-pointer" />
 			{:else}
-				<HeroiconsXMark16Solid
-					class="sm:hidden text-lg text-gray-400 hover:text-gray-500 cursor-pointer" />
+				<HeroiconsXMark16Solid class="text-lg text-gray-400 hover:text-gray-500 cursor-pointer " />
 			{/if}
-		</button>
+		</Button.Root>
 	</div>
 	<div class="hidden basis-full grow sm:block">
 		<div class="flex flex-row items-center justify-end gap-y-0 gap-x-7 mt-0 ps-7">
