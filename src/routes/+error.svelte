@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Fa6SolidChevronLeft from '~icons/fa6-solid/chevron-left';
-	import { page } from '$app/stores';
 </script>
 
 <main class="flex flex-col w-full h-full items-center max-w-[85rem] mx-auto p-4 sm:p-6 lg:p-8">
