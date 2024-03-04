@@ -3,6 +3,9 @@
 	import HeroiconsBars316Solid from '~icons/heroicons/bars-3-16-solid';
 	import HeroiconsChevronRight16Solid from '~icons/heroicons/chevron-right-16-solid';
 	import { page } from '$app/stores';
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
 
 	let crumbs: Array<{ label: string; href: string }> = [];
 
@@ -18,8 +21,10 @@
 </script>
 
 <div class="flex w-full border-t border-gray-200 px-4 py-4 sm:px-6 xl:px-8 xl:hidden">
-	<Button.Root>
-		<HeroiconsBars316Solid class="text-gray-400 hover:text-gray-500 cursor-pointer" />
+	<Button.Root on:click={() => dispatch('railbarOpenState')}>
+		<HeroiconsBars316Solid
+			class="text-gray-400 hover:text-gray-500 cursor-pointer"
+			id="railbarhamburgerMenu" />
 	</Button.Root>
 	<div class="ms-3 flex items-center whitespace-nowrap">
 		{#each crumbs as c, i}

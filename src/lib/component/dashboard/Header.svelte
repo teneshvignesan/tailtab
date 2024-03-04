@@ -5,5 +5,5 @@
 
 <header class="flex flex-col w-full border-b border-gray-200">
 	<Navbar />
-	<Breadcrumb />
+	<Breadcrumb on:railbarOpenState />
 </header>
