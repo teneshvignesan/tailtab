@@ -11,8 +11,9 @@
 <nav
 	class="relative w-full max-w-[85rem] mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
 	<div class="flex items-center justify-between">
-		<a href="/" aria-label="Tailtab">
-			<img src="/favicon.png" alt="Tailtab logo" class="w-6 sm:w-10" />
+		<a href="/" aria-label="Tailtab" class="flex flex-row space-x-2 items-center">
+			<img src="/favicon.png" alt="Tailtab logo" class="w-6 sm:w-7" />
+			<p class="text-lg sm:text-2xl font-medium">Tailtab</p>
 		</a>
 		<Button.Root
 			class="sm:hidden"

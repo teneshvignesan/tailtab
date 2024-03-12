@@ -1,6 +1,9 @@
 <script lang="ts">
 </script>
 
-<main class="flex flex-col w-full h-full max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+<main class="flex flex-row w-full h-full">
 	<slot />
+	<div class="hidden lg:block">
+		<img src="/images/backgrounds/cover-auth.jpg" alt="Auth Background" class="h-full w-full" />
+	</div>
 </main>
