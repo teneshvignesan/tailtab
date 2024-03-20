@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Railbar from '$lib/component/dashboard/Railbar.svelte';
-	import Header from '$lib/component/dashboard/Header.svelte';
+	import Railbar from '$lib/component/authenticated/Railbar.svelte';
+	import Header from '$lib/component/authenticated/Header.svelte';
 
 	let modalIsOpen: boolean = false;
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Navbar from '$lib/component/dashboard/Navbar.svelte';
+	import Navbar from '$lib/component/authenticated/Navbar.svelte';
 	import Breadcrumb from './Breadcrumb.svelte';
 </script>
 
